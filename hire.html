@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request Talent | Kinetix Sphere</title>
+<meta name="description" content="Tell Kinetix Sphere what engineers you need. Staff augmentation, dedicated teams, and placement from Bengaluru.">
+<link rel="canonical" href="https://kinetixsphere.com/hire.html">
+<meta name="theme-color" content="#0A1A33">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Header and menu. The menu is the same on every page. If you add a page, add its link here and in the footer of each page. -->
+<header class="site-header">
+<div class="container bar">
+<a class="logo" href="index.html" aria-label="Kinetix Sphere home"><img src="assets/img/logo.svg" alt="Kinetix Sphere" width="159" height="44"></a>
+<nav class="main-nav" aria-label="Main">
+<a href="services.html">Services</a>
+<a href="vision.html">Vision</a>
+<a href="openings.html">Daily Openings</a>
+<a href="jobs.html">Jobs</a>
+<a href="candidates.html">Candidates</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+<a class="btn small" href="hire.html" aria-current="page">Request Talent</a>
+</div>
+</header>
+
+<main id="main">
+<div class="page-head">
+<div class="container">
+<div class="eyebrow">For employers</div>
+<h1>Request talent</h1>
+<p class="lead">Share the roles you need to fill. We reply with an engagement plan and pre-vetted profiles that match your tech stack and timeline.</p>
+</div>
+</div>
+
+<div class="page-body">
+<div class="container form-wrap">
+<div id="form-status" class="status" role="status" aria-live="polite"></div>
+<!-- Employer requirement form. Sent by requirement.php on Hostinger or by the Lambda /requirement route on AWS. -->
+<form class="contact" action="requirement.php" method="post">
+<div class="row">
+<div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required maxlength="120"></div>
+<div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" required maxlength="160"></div>
+</div>
+<div class="row">
+<div class="field"><label for="company">Company</label><input id="company" name="company" type="text" autocomplete="organization" required maxlength="160"></div>
+<div class="field"><label for="phone">Phone (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="40"></div>
+</div>
+<div class="field"><label for="roles">Roles you need</label><input id="roles" name="roles" type="text" placeholder="For example: 2 Java developers, 1 DevOps engineer" required maxlength="300"></div>
+<div class="field"><label for="stack">Tech stack</label><input id="stack" name="stack" type="text" placeholder="For example: Java, Spring Boot, AWS, Kubernetes" maxlength="300"></div>
+<div class="row">
+<div class="field"><label for="count">Number of people</label><input id="count" name="count" type="text" inputmode="numeric" maxlength="20"></div>
+<div class="field">
+<label for="model">Engagement model</label>
+<select id="model" name="model">
+<option>IT Staff Augmentation</option>
+<option>Dedicated Remote Team</option>
+<option>Permanent Placement</option>
+<option>Contract Placement</option>
+<option selected>Not sure yet</option>
+</select>
+</div>
+</div>
+<div class="row">
+<div class="field"><label for="duration">Start date and duration</label><input id="duration" name="duration" type="text" placeholder="For example: Start in November, 12 months" maxlength="120"></div>
+<div class="field"><label for="budget">Budget range (optional)</label><input id="budget" name="budget" type="text" maxlength="120"></div>
+</div>
+<div class="row">
+<div class="field">
+<label for="workmode">Work mode</label>
+<select id="workmode" name="workmode">
+<option selected>Not sure yet</option>
+<option>On-site</option>
+<option>Hybrid</option>
+<option>Remote</option>
+</select>
+</div>
+<div class="field">
+<label for="urgency">How soon do you need them?</label>
+<select id="urgency" name="urgency">
+<option selected>Not sure yet</option>
+<option>Immediately</option>
+<option>Within 2 weeks</option>
+<option>Within a month</option>
+<option>Planning ahead</option>
+</select>
+</div>
+</div>
+<div class="field"><label for="details">Other details</label><textarea id="details" name="details" rows="5" maxlength="4000"></textarea></div>
+
+<div class="sr-only" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+
+<label class="check"><input type="checkbox" name="consent" value="1" required><span>I agree that Kinetix Sphere may contact me about this requirement and handle my details as described in the <a href="privacy-policy.html" style="text-decoration:underline">Privacy Policy</a>.</span></label>
+
+<div class="form-foot">
+<button class="btn" type="submit">Send requirement</button>
+</div>
+</form>
+</div>
+</div>
+</main>
+
+<!-- Footer: address, social links, copyright and the developer credit. The same footer is used on every page. -->
+<footer class="site-footer">
+<div class="container">
+<div class="foot">
+<a href="index.html" aria-label="Kinetix Sphere home"><img src="assets/img/logo-reverse.svg" alt="Kinetix Sphere" width="144" height="40"></a>
+<nav aria-label="Legal">
+<a href="vision.html">Vision</a>
+<a href="openings.html">Daily Openings</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="privacy-policy.html">Privacy Policy</a>
+<a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+<a href="https://www.instagram.com/kinetixsphere" target="_blank" rel="noopener">Instagram</a>
+<a href="https://www.linkedin.com/in/kinetix-sphere-5b0120446" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://www.facebook.com/profile.php?id=61595677872182" target="_blank" rel="noopener">Facebook</a>
+</nav>
+</div>
+<div class="copy">&copy; 2026 Kinetix Sphere. All rights reserved. Bengaluru, Karnataka, India. <span class="credit" lang="ja">開発・管理：アズハル（Azhar）</span></div>
+</div>
+</footer>
+<script src="assets/js/forms.js"></script>
+</body>
+</html>

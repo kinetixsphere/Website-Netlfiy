@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Jobs | Kinetix Sphere</title>
+<meta name="description" content="Current IT and software engineering openings from Kinetix Sphere, Bengaluru. Browse roles and apply online.">
+<link rel="canonical" href="https://kinetixsphere.com/jobs.html">
+<meta name="theme-color" content="#0A1A33">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Header and menu. The menu is the same on every page. If you add a page, add its link here and in the footer of each page. -->
+<header class="site-header">
+<div class="container bar">
+<a class="logo" href="index.html" aria-label="Kinetix Sphere home"><img src="assets/img/logo.svg" alt="Kinetix Sphere" width="159" height="44"></a>
+<nav class="main-nav" aria-label="Main">
+<a href="services.html">Services</a>
+<a href="vision.html">Vision</a>
+<a href="openings.html">Daily Openings</a>
+<a href="jobs.html" aria-current="page">Jobs</a>
+<a href="candidates.html">Candidates</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+<a class="btn small" href="hire.html">Request Talent</a>
+</div>
+</header>
+
+<main id="main">
+<div class="page-head">
+<div class="container">
+<div class="eyebrow">Careers and openings</div>
+<h1>Open jobs</h1>
+<p class="lead">Browse current roles from Kinetix Sphere and our client companies. Open a role to read the requirements, then apply online with your resume.</p>
+</div>
+</div>
+
+<div class="page-body">
+<div class="container">
+<div id="apply-status" class="status" role="status" aria-live="polite"></div>
+
+<div id="job-filters" class="filters" role="search">
+<div class="field"><label for="job-search">Search by title, skill, or city</label><input id="job-search" type="search" placeholder="For example: DevOps, Java, Bengaluru"></div>
+<div class="field"><label for="job-mode">Work mode</label><select id="job-mode"><option value="">All modes</option></select></div>
+<div class="field"><label for="job-type">Job type</label><select id="job-type"><option value="">All types</option></select></div>
+</div>
+
+<div id="job-count" class="count" aria-live="polite"></div>
+<div id="job-list"></div>
+
+<div id="job-nomatch" class="empty" hidden>
+<h2 style="font-size:24px">No roles match your search</h2>
+<p>Try fewer words or reset the filters.</p>
+</div>
+
+<div id="job-failed" class="empty" hidden>
+<h2 style="font-size:24px">Jobs could not be loaded</h2>
+<p>Please refresh the page. If the problem continues, send your resume through the general application form.</p>
+<a class="btn" href="apply.html">General application</a>
+</div>
+
+<div id="job-empty" class="empty" hidden>
+<h2 style="font-size:24px">No open roles listed right now</h2>
+<p>New roles are added regularly. You can still share your resume and we will contact you when a matching role opens.</p>
+<a class="btn" href="apply.html">Share your resume</a>
+</div>
+
+<div class="split">
+<div class="card">
+<h3>Looking for a job?</h3>
+<p>Do not see a fitting role? Send your profile once and we will match you with upcoming openings across startups and global enterprises.</p>
+<a class="btn" href="apply.html">Submit your resume</a>
+</div>
+<div class="card">
+<h3>Hiring engineers?</h3>
+<p>Tell us the roles, tech stack, team size, and timeline. We reply with a plan and pre-vetted profiles.</p>
+<a class="btn" href="hire.html">Share your requirement</a>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+<!-- Footer: address, social links, copyright and the developer credit. The same footer is used on every page. -->
+<footer class="site-footer">
+<div class="container">
+<div class="foot">
+<a href="index.html" aria-label="Kinetix Sphere home"><img src="assets/img/logo-reverse.svg" alt="Kinetix Sphere" width="144" height="40"></a>
+<nav aria-label="Legal">
+<a href="vision.html">Vision</a>
+<a href="openings.html">Daily Openings</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="privacy-policy.html">Privacy Policy</a>
+<a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+<a href="https://www.instagram.com/kinetixsphere" target="_blank" rel="noopener">Instagram</a>
+<a href="https://www.linkedin.com/in/kinetix-sphere-5b0120446" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://www.facebook.com/profile.php?id=61595677872182" target="_blank" rel="noopener">Facebook</a>
+</nav>
+</div>
+<div class="copy">&copy; 2026 Kinetix Sphere. All rights reserved. Bengaluru, Karnataka, India. <span class="credit" lang="ja">開発・管理：アズハル（Azhar）</span></div>
+</div>
+</footer>
+<!-- Jobs list. Read from assets/data/jobs.json. Post or close jobs with jobs-manager.html, then replace that file (see README.md, Step 2). -->
+<script src="assets/js/jobs.js"></script>
+</body>
+</html>

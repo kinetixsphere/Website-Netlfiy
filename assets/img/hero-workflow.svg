@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 470" role="img" aria-labelledby="t d">
+<title id="t">Kinetix Sphere workflow</title>
+<desc id="d">Three connected steps: your team shares requirements, Kinetix Sphere sources and vets engineers, and vetted engineers join your sprints.</desc>
+<rect width="560" height="470" rx="10" fill="#0F172A"/>
+<text x="40" y="52" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#CBD5E1">How Kinetix Sphere fits into your engineering workflow</text>
+
+<rect x="40" y="84" width="480" height="96" rx="8" fill="#1E293B" stroke="#475569"/>
+<rect x="64" y="112" width="16" height="16" rx="3" fill="#7DD3FC"/>
+<rect x="84" y="112" width="16" height="16" rx="3" fill="#7DD3FC"/>
+<rect x="64" y="132" width="16" height="16" rx="3" fill="#7DD3FC"/>
+<rect x="84" y="132" width="16" height="16" rx="3" fill="#7DD3FC" fill-opacity="0.25"/>
+<text x="124" y="122" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7DD3FC">YOUR TEAM</text>
+<text x="124" y="148" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="15" fill="#F1F5F9">Tech stack, timeline, and team size</text>
+
+<line x1="80" y1="180" x2="80" y2="202" stroke="#0EA5E9" stroke-width="2"/>
+<polygon points="74,200 86,200 80,210" fill="#0EA5E9"/>
+
+<rect x="40" y="212" width="480" height="96" rx="8" fill="#1E293B" stroke="#0EA5E9" stroke-width="2"/>
+<rect x="64" y="240" width="16" height="16" rx="3" fill="#7DD3FC"/>
+<rect x="84" y="240" width="16" height="16" rx="3" fill="#7DD3FC"/>
+<rect x="64" y="260" width="16" height="16" rx="3" fill="#7DD3FC"/>
+<rect x="84" y="260" width="16" height="16" rx="3" fill="#FF8A57"/>
+<text x="124" y="250" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7DD3FC">KINETIX SPHERE</text>
+<text x="124" y="276" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="15" fill="#F1F5F9">Sourcing, coding tests, architecture review</text>
+
+<line x1="80" y1="308" x2="80" y2="330" stroke="#0EA5E9" stroke-width="2"/>
+<polygon points="74,328 86,328 80,338" fill="#0EA5E9"/>
+
+<rect x="40" y="340" width="480" height="96" rx="8" fill="#1E293B" stroke="#475569"/>
+<rect x="64" y="368" width="16" height="16" rx="3" fill="#7DD3FC"/>
+<rect x="84" y="368" width="16" height="16" rx="3" fill="#7DD3FC"/>
+<rect x="64" y="388" width="16" height="16" rx="3" fill="#7DD3FC"/>
+<rect x="84" y="388" width="16" height="16" rx="3" fill="#7DD3FC"/>
+<text x="124" y="378" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7DD3FC">YOUR SPRINTS</text>
+<text x="124" y="404" font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif" font-size="15" fill="#F1F5F9">Vetted engineers embedded in your workflow</text>
+</svg>

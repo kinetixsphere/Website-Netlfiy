@@ -1,0 +1,50 @@
+{
+  "jobs": [
+    {
+      "id": "devops-001",
+      "sample": true,
+      "title": "Senior DevOps Engineer",
+      "company": "Confidential client",
+      "location": "Bengaluru",
+      "mode": "Hybrid",
+      "type": "Full-time",
+      "experience": "5 to 8 years",
+      "posted": "2026-10-20",
+      "skills": ["AWS", "Kubernetes", "Terraform", "CI/CD"],
+      "summary": "Own cloud infrastructure and delivery pipelines for a product engineering team.",
+      "responsibilities": [
+        "Design and maintain CI/CD pipelines",
+        "Manage Kubernetes clusters and infrastructure as code",
+        "Improve monitoring, alerting, and reliability"
+      ],
+      "requirements": [
+        "5 or more years in DevOps or SRE roles",
+        "Hands-on AWS, Kubernetes, and Terraform",
+        "Strong scripting skills in Bash or Python"
+      ]
+    },
+    {
+      "id": "java-002",
+      "sample": true,
+      "title": "Java Backend Developer",
+      "company": "Confidential client",
+      "location": "Bengaluru",
+      "mode": "On-site",
+      "type": "Contract",
+      "experience": "3 to 6 years",
+      "posted": "2026-10-18",
+      "skills": ["Java", "Spring Boot", "Microservices", "SQL"],
+      "summary": "Build and maintain backend services for a fast-growing software product.",
+      "responsibilities": [
+        "Develop REST APIs and microservices",
+        "Write unit and integration tests",
+        "Review code and support production releases"
+      ],
+      "requirements": [
+        "3 or more years of Java and Spring Boot",
+        "Experience with relational databases",
+        "Good communication with distributed teams"
+      ]
+    }
+  ]
+}

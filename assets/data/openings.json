@@ -1,0 +1,8 @@
+{
+  "updated": "2026-10-28",
+  "openings": [
+    {"id": "sample-devops-20261028", "sample": true, "date": "2026-10-28", "title": "DevOps Engineer", "company": "Confidential client", "location": "Bengaluru", "mode": "Hybrid", "type": "Full-time", "experience": "4 to 7 years", "skills": ["AWS", "Kubernetes", "Terraform", "CI/CD"], "note": "Sample listing to show how a daily opening looks. Replace it with your real openings."},
+    {"id": "sample-qa-20261028", "sample": true, "date": "2026-10-28", "title": "QA Automation Engineer", "company": "Confidential client", "location": "Bengaluru", "mode": "On-site", "type": "Contract", "experience": "3 to 5 years", "skills": ["Selenium", "Playwright", "API Testing"], "note": "Sample listing."},
+    {"id": "sample-java-20261027", "sample": true, "date": "2026-10-27", "title": "Java Backend Developer", "company": "Confidential client", "location": "India", "mode": "Remote", "type": "Full-time", "experience": "3 to 6 years", "skills": ["Java", "Spring Boot", "Microservices"], "note": "Sample listing."}
+  ]
+}

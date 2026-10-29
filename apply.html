@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apply for a Job | Kinetix Sphere</title>
+<meta name="description" content="Apply to IT and software engineering roles with Kinetix Sphere. Share your resume and details.">
+<link rel="canonical" href="https://kinetixsphere.com/apply.html">
+<meta name="theme-color" content="#0A1A33">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Header and menu. The menu is the same on every page. If you add a page, add its link here and in the footer of each page. -->
+<header class="site-header">
+<div class="container bar">
+<a class="logo" href="index.html" aria-label="Kinetix Sphere home"><img src="assets/img/logo.svg" alt="Kinetix Sphere" width="159" height="44"></a>
+<nav class="main-nav" aria-label="Main">
+<a href="services.html">Services</a>
+<a href="vision.html">Vision</a>
+<a href="openings.html">Daily Openings</a>
+<a href="jobs.html">Jobs</a>
+<a href="candidates.html">Candidates</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+<a class="btn small" href="hire.html">Request Talent</a>
+</div>
+</header>
+
+<main id="main">
+<div class="page-head">
+<div class="container">
+<div class="eyebrow">For candidates</div>
+<h1>Apply for a role</h1>
+<p class="lead">Share your details and resume. Our recruiters review every application and contact you if your profile matches.</p>
+</div>
+</div>
+
+<div class="page-body">
+<div class="container form-wrap">
+<div id="form-status" class="status" role="status" aria-live="polite"></div>
+<!-- Job application form. Sent by apply.php on Hostinger or by the Lambda /apply route on AWS. The resume goes to the jobs email as an attachment and is not stored on the website. Allowed: PDF, DOC, DOCX, up to 4 MB. -->
+<form class="contact" action="apply.php" method="post" enctype="multipart/form-data">
+<div id="applying" class="applying" hidden></div>
+<input type="hidden" id="job_id" name="job_id" value="">
+<input type="hidden" id="job_title" name="job_title" value="">
+
+<div class="row">
+<div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" required maxlength="120"></div>
+<div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required maxlength="160"></div>
+</div>
+<div class="row">
+<div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" required maxlength="40"></div>
+<div class="field"><label for="location">Current location</label><input id="location" name="location" type="text" autocomplete="address-level2" required maxlength="120"></div>
+</div>
+<div class="row">
+<div class="field"><label for="experience">Total experience (years)</label><input id="experience" name="experience" type="text" inputmode="decimal" maxlength="20"></div>
+<div class="field"><label for="notice">Notice period</label><input id="notice" name="notice" type="text" placeholder="For example: 30 days" maxlength="60"></div>
+</div>
+<div class="field"><label for="skills">Key skills</label><input id="skills" name="skills" type="text" placeholder="For example: Java, Spring Boot, AWS, Kubernetes" maxlength="300"></div>
+<div class="row">
+<div class="field">
+<label for="jobtype">Looking for</label>
+<select id="jobtype" name="jobtype">
+<option selected>Permanent or contract</option>
+<option>Permanent</option>
+<option>Contract</option>
+</select>
+</div>
+<div class="field">
+<label for="workmode">Preferred work mode</label>
+<select id="workmode" name="workmode">
+<option selected>Any</option>
+<option>On-site</option>
+<option>Hybrid</option>
+<option>Remote</option>
+</select>
+</div>
+</div>
+<div class="row">
+<div class="field"><label for="currentctc">Current CTC (optional)</label><input id="currentctc" name="currentctc" type="text" maxlength="60"></div>
+<div class="field"><label for="ctc">Expected CTC (optional)</label><input id="ctc" name="ctc" type="text" maxlength="60"></div>
+</div>
+<div class="field"><label for="link">LinkedIn or GitHub link (optional)</label><input id="link" name="link" type="url" maxlength="300"></div>
+<div class="field">
+<label for="resume">Resume (PDF, DOC, or DOCX, up to 4 MB)</label>
+<input id="resume" name="resume" type="file" accept=".pdf,.doc,.docx" required>
+</div>
+<div class="field"><label for="message">Anything else we should know (optional)</label><textarea id="message" name="message" rows="4" maxlength="4000"></textarea></div>
+
+<div class="sr-only" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+
+<label class="check"><input type="checkbox" name="consent" value="1" required><span>I agree that Kinetix Sphere may store my details and resume and share them with client companies for matching roles, as described in the <a href="privacy-policy.html" style="text-decoration:underline">Privacy Policy</a>.</span></label>
+
+<div class="form-foot">
+<button class="btn" type="submit">Submit application</button>
+<a href="jobs.html" class="note" style="text-decoration:underline">Back to jobs</a>
+</div>
+</form>
+</div>
+</div>
+</main>
+
+<!-- Footer: address, social links, copyright and the developer credit. The same footer is used on every page. -->
+<footer class="site-footer">
+<div class="container">
+<div class="foot">
+<a href="index.html" aria-label="Kinetix Sphere home"><img src="assets/img/logo-reverse.svg" alt="Kinetix Sphere" width="144" height="40"></a>
+<nav aria-label="Legal">
+<a href="vision.html">Vision</a>
+<a href="openings.html">Daily Openings</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="privacy-policy.html">Privacy Policy</a>
+<a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+<a href="https://www.instagram.com/kinetixsphere" target="_blank" rel="noopener">Instagram</a>
+<a href="https://www.linkedin.com/in/kinetix-sphere-5b0120446" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://www.facebook.com/profile.php?id=61595677872182" target="_blank" rel="noopener">Facebook</a>
+</nav>
+</div>
+<div class="copy">&copy; 2026 Kinetix Sphere. All rights reserved. Bengaluru, Karnataka, India. <span class="credit" lang="ja">開発・管理：アズハル（Azhar）</span></div>
+</div>
+</footer>
+<script src="assets/js/forms.js"></script>
+</body>
+</html>
